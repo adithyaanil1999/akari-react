@@ -1,0 +1,137 @@
+.reader-outer-wrap{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    background: black
+}
+
+.reader-main-wrap{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.reader-main-wrap img{
+    width: 100%;
+    height: auto;
+}
+
+.reader-fullscreen-loader{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reader-bottom-menu-wrap{
+    display: none;
+    width: 72%;
+    height: 6%;
+    position: fixed;
+    top: 87%;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: slideInUp;
+    animation-duration: 0.5s;
+}
+
+.reader-bottom-menu-wrap span{
+    transition: color 0.5s;
+}
+
+.reader-image-carousel-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.reader-carousel-img-wrap{
+    width: 100%;
+    flex: 0 0 auto;  
+}
+
+.touch-control-reader{
+    width: 100%;
+    top: 0;
+    height: 87%;
+    position: absolute;
+    display: flex;
+}
+
+.touch-control-left{
+    width: 40%;
+    height: 100%;
+}
+
+.touch-control-right{
+    width: 60%;
+    height: 100%;
+}
+
+.reader-top-menu-wrap{
+    width: 62%;
+    height: 6%;
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    right: 0;
+    top: 6%;
+    margin: auto;
+    border-radius: 10px;
+    animation: slideInDown;
+    animation-duration: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.reader-chapter-span-prev{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Abel';
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.reader-chapter-span-next{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Abel';
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+@media all and (display-mode: standalone) {
+    .reader-main-wrap{
+        margin-top: 10%;
+    }
+
+    .reader-carousel-img-wrap{
+        margin-bottom: 30%;
+    }
+
+}

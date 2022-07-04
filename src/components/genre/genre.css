@@ -1,0 +1,253 @@
+.genre-container{
+    width: 100%;
+    height: 100%;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.genre-header-wrap{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.genre-header-wrap h1{
+    margin-left: 5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.genre-back-wrap{
+    margin-left: 3%;
+    width: 25%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.genre-back-btn{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5%;
+}
+
+.genre-sorts-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.sort-selector{
+    margin-right: 6%;
+    border: none;
+    font-family: 'Abel';
+    width: 82%;
+    height: 30%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.sort-selector:focus{
+    outline: none;
+}
+
+.genre-body-container{
+    width: 100%;
+    height: 85%;
+}
+
+.genre-loader-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre-body{
+    width: 100%;
+    height: 100%;
+}
+
+.genre-menu-body{
+    width: 100%;
+    height: 100%;
+    animation: fadeIn;
+    animation-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.genre-menu-wrap{
+    width: 88%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Noto Sans';
+    overflow-y: scroll;
+}
+
+.genre-menu-bottom-wrap{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.genre-selected-carousel{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Noto Sans';
+    overflow-x: scroll;
+}
+
+.genre-carousel-item{
+    width: 36%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    flex: 0 0 auto;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+    margin-bottom: 2%;
+}
+
+.genre-remove-span {
+    font-size: 0.7rem;
+    color: red;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.genre-btn-wrap{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre-filter-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.genre-selector-wrap{
+    margin-bottom: 4%;
+    padding: 2px;
+    margin-left: 2%;
+    height: 5%;
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: border 0.1s;
+    text-align: center;
+}
+
+.genre-search-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.genre-item-thumb{
+    width: 100%;
+    height: 100%;
+    background-size:cover !important;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.genre-item-thumb span{
+    font-family: 'Abel';
+    margin-left: 2%;
+}
+
+.genre-search-bottom-wrap{
+    display: flex;
+    width: 100%;
+    height: 9%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans';
+}
+
+.genre-search-item-wrap{
+    width: 44%;
+    height: 38%;
+    margin: 2% 3% 2% 3%;
+    flex: 0 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.genre-scroll-bottom-loader-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre-scroll-bottom-loader-wrap .spinner{
+    margin: none;
+} 
+
+
+@media all and (display-mode: standalone) {
+    .genre-header-wrap h1{
+        margin-top: 15%;
+    }
+
+    .sort-selector{
+        margin-top: 20%;
+        margin-right: 13%;
+    }
+
+    .genre-back-wrap{
+        margin-top: 20%;
+    }
+}

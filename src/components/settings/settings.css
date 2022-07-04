@@ -1,0 +1,125 @@
+.settings-wrap{
+    width: 100%;
+    height: 100%;
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+.settings-header-wrap{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.settings-header-wrap h1{
+    margin-left: 5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.settings-body-wrap{
+    width: 100%;
+    height: 85%;
+
+}
+
+.setting-body{
+    width: 100%;
+    height: 80%;
+    overflow: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logout-wrap{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings-item-wrap{
+    min-height: 4vh;
+    width: 100%;
+    font-family: 'Noto Sans';
+    
+}
+
+.settings-item-header-wrap{
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.settings-item-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settings-source-item-wrap{
+    width: 92%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-loader-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoutBtn{
+    font-family: 'Noto Sans';
+    display: flex;
+    border: none;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    width: 45%;
+    height: 35%;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: rgb(19,122,150);
+    background: linear-gradient(90deg, rgb(84, 231, 250) 0%, rgba(147,177,237,1) 30%, rgb(72, 203, 55) 73%, rgb(144, 219, 46) 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    cursor: pointer;
+}
+
+.logoutSpan{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoutBtnSpinner{
+    width: 40%;
+    height: 100%;
+    transform: scale(0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (display-mode: standalone) {
+    .settings-header-wrap h1{
+        margin-top: 15%;
+    }
+
+}
