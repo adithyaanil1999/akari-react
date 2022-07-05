@@ -12,9 +12,10 @@ import { BrowserRouter } from "react-router-dom";
 export const store = configureStore()
 const container = document.getElementById('root');
 const root = createRoot(container!);
+const routerBaseName = process.env.PUBLIC_URL;
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter  basename={routerBaseName}>
     <Provider store={store}>
       <App />
     </Provider>,

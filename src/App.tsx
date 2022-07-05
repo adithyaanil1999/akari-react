@@ -133,7 +133,7 @@ function App() {
   }
 
   useEffect(()=>{
-
+    console.log('v1')
     if(isLoginVerified === false){
       verifyTokens();
     }else{
@@ -149,7 +149,7 @@ function App() {
         }
       }else{
         if(location.pathname !== '/'){
-          navigate("/", { replace: true });
+          navigate("/");
         }
       }
       //verify tokens every 10 mins
