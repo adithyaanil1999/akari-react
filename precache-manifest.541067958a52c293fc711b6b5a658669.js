@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/akari-react/static/js/runtime~main.b37a136d.js"
   },
   {
-    "revision": "526a2562eadd0c08d91cf76c2208ba37",
+    "revision": "d981266c7eef8318f94cca0b78e995bc",
     "url": "/akari-react/index.html"
   }
 ];
