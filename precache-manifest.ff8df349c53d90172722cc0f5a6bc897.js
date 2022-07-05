@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5473fe28c64bcb552e27",
+    "revision": "a8b2637c9e7c53a34e61",
     "url": "/akari-react/static/css/main.69e19632.chunk.css"
   },
   {
-    "revision": "5473fe28c64bcb552e27",
-    "url": "/akari-react/static/js/main.5473fe28.chunk.js"
+    "revision": "a8b2637c9e7c53a34e61",
+    "url": "/akari-react/static/js/main.a8b2637c.chunk.js"
   },
   {
     "revision": "f1b498901fe9aa320db6",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/akari-react/static/js/runtime~main.b37a136d.js"
   },
   {
-    "revision": "6ce96fdd049bb2fe5802bf64b23a965e",
+    "revision": "a46b36c2987d3f32a2d982e2d7933723",
     "url": "/akari-react/index.html"
   }
 ];
