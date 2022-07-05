@@ -1,7 +1,7 @@
 {
   "main.css": "/akari-react/static/css/main.69e19632.chunk.css",
-  "main.js": "/akari-react/static/js/main.40384632.chunk.js",
-  "main.js.map": "/akari-react/static/js/main.40384632.chunk.js.map",
+  "main.js": "/akari-react/static/js/main.bb2d3faf.chunk.js",
+  "main.js.map": "/akari-react/static/js/main.bb2d3faf.chunk.js.map",
   "static/js/1.f1b49890.chunk.js": "/akari-react/static/js/1.f1b49890.chunk.js",
   "static/js/1.f1b49890.chunk.js.map": "/akari-react/static/js/1.f1b49890.chunk.js.map",
   "static/js/2.4243bb7f.chunk.js": "/akari-react/static/js/2.4243bb7f.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/akari-react/static/js/runtime~main.b37a136d.js.map",
   "static/css/main.69e19632.chunk.css.map": "/akari-react/static/css/main.69e19632.chunk.css.map",
   "index.html": "/akari-react/index.html",
-  "precache-manifest.b5f1658b3ed9fb314a18da2ae2f148d1.js": "/akari-react/precache-manifest.b5f1658b3ed9fb314a18da2ae2f148d1.js",
+  "precache-manifest.70fc278cc30516dfa8888891377267ac.js": "/akari-react/precache-manifest.70fc278cc30516dfa8888891377267ac.js",
   "service-worker.js": "/akari-react/service-worker.js"
 }
