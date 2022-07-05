@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/akari-react/precache-manifest.aec4ecac3cdfef92e075c322e35077a9.js"
+  "/akari-react/precache-manifest.94d0fa9e3ad8d392ea7802be1413d454.js"
 );
 
 workbox.clientsClaim();
